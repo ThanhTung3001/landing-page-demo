@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+/*pc*/
+@media all and (min-width:1024px) {
+.msec1 { }
+.msec1 .swiper-slide { overflow: hidden }
+.msec1 .swiper-slide .slogan { position: absolute; z-index: 10; top: 30%; left: 50%; transform: translateX(-50%); width: 100%; text-align: left; max-width: 1200px; }
+.msec1 .swiper-slide .slogan dl { position: relative; top: 50%; opacity: 0; font-size: 30px; color: #fff; font-weight: 600; transition: 0.5s 0.5s; text-transform: uppercase; line-height: 1; }
+.msec1 .swiper-slide .slogan dl span { display: block; font-family: 'Teko', sans-serif; }
+.msec1 .swiper-slide .slogan dl dt { font-family: 'Teko', sans-serif; font-size: 30px; }
+.msec1 .swiper-slide .slogan dl dt span { font-size: 80px }
+.msec1 .swiper-slide .slogan dl dt .text1 { color: #28ace2 }
+.msec1 .swiper-slide .slogan dl dt .text2 { color: #7f4704 }
+.msec1 .swiper-slide .slogan dl dt .text3 { color: #bb0000 }
+.msec1 .swiper-slide .slogan dl dt .text4 { color: #f7ae00 }
+.msec1 .swiper-slide .slogan dl dd { font-family: 'Noto Sans Korean', 'Malgun Gothic', '¸¼Àº °íµñ', dotum, 'µ¸¿ò', gulim, '±¼¸²', tahoma, sans-serif; font-weight: 100; font-size: 22px }
+.msec1 .swiper-slide .slogan dl dd span { font-weight: 600; font-size: 60px; }
+.msec1 .swiper-slide .slogan ul { position: relative; top: 50%; opacity: 0; font-size: 50px; color: #fff; transition: 0.5s 1s }
+.msec1 .swiper-slide .slogan ul li { display: inline-block; margin: 0 1.5rem 0 0 }
+.msec1 .swiper-slide .slogan ul li a { color: #fff; font-family: 'Teko', sans-serif; font-size: 18px; text-transform: uppercase; display: block; border-bottom: 3px solid #fff; padding: 0 0 0.5rem 0 }
+.msec1 .swiper-slide .slogan p { position: absolute; top: -30%; right: 0; transition: 1.5s; transform: scale(2) }
+.msec1 .swiper-slide .slogan p img { width: auto !important }
+.msec1 .swiper-slide .slogan .img04 { right: 10%; top: -60% }
+.msec1 .swiper-slide .bg { transform: scale(1.1)/*½ºÄÉÀÏÅ©±â*/; transition: 5s/*½ºÄÉÀÏ½Ã°£*/; width: 100%; height: 795px }
+.msec1 .swiper-slide .bg img { width: 100%; height: 100%; object-fit: cover; }
+.msec1 .swiper-slide-active .bg { transform: scale(1) }
+.msec1 .swiper-slide-active .slogan dl { top: 50%; opacity: 1 }
+.msec1 .swiper-slide-active .slogan ul { top: 50%; opacity: 1 }
+.msec1 .swiper-slide-active .slogan p { right: 0; transform: scale(1) }
+.msec1 .swiper-slide .swiper-button-prev { width: 54px; height: 54px; background: url(../images/main/arrow_prev.png) no-repeat; top: 350px }
+.msec1 .swiper-slide .swiper-button-next { width: 54px; height: 54px; background: url(../images/main/arrow_next.png) no-repeat; top: 350px; left: 100px }
+}
+
+    
+
+/*mobile*/
+@media all and (max-width:1023px) {
+.msec1 { }
+.msec1 .swiper-slide .slogan { position: absolute; z-index: 10; top: 10%; left: 5%; width: 100%; height: 100%; text-align: left; }
+.msec1 .swiper-slide .slogan dl { position: relative; top: 10%; opacity: 0; font-size: 30px; color: #fff; font-weight: 600; transition: 0.5s 0.5s; text-transform: uppercase; line-height: 1; }
+.msec1 .swiper-slide .slogan dl span { display: block; font-family: 'Teko', sans-serif; }
+.msec1 .swiper-slide .slogan dl dt { font-family: 'Teko', sans-serif; font-size: 1.5rem; }
+.msec1 .swiper-slide .slogan dl dt span { font-size: 4rem }
+.msec1 .swiper-slide .slogan dl dt .text1 { color: #28ace2 }
+.msec1 .swiper-slide .slogan dl dt .text2 { color: #7f4704 }
+.msec1 .swiper-slide .slogan dl dt .text3 { color: #bb0000 }
+.msec1 .swiper-slide .slogan dl dt .text4 { color: #f7ae00 }
+.msec1 .swiper-slide .slogan dl dd { font-family: 'Noto Sans Korean', 'Malgun Gothic', '¸¼Àº °íµñ', dotum, 'µ¸¿ò', gulim, '±¼¸²', tahoma, sans-serif; font-weight: 100; font-size: 22px }
+.msec1 .swiper-slide .slogan dl dd span { font-weight: 600; font-size: 2rem; }
+.msec1 .swiper-slide .slogan ul { position: relative; top: 10%; opacity: 0; font-size: 2rem; color: #fff; transition: 0.5s 1s }
+.msec1 .swiper-slide .slogan ul li { display: inline-block; margin: 0 1.5rem 0 0 }
+.msec1 .swiper-slide .slogan ul li a { color: #fff; font-family: 'Teko', sans-serif; font-size: 18px; text-transform: uppercase; display: block; border-bottom: 3px solid #fff; padding: 0 0 0.5rem 0 }
+.msec1 .swiper-slide .slogan p { position: absolute; transition: 1.5s; transform: scale(1) }
+.msec1 .swiper-slide .slogan p img { max-width: 100%; width: auto !important }
+.msec1 .swiper-slide .slogan .img01 { right: 5%; top: 30% }
+.msec1 .swiper-slide .slogan .img02 { right: 5%; top: 25% }
+.msec1 .swiper-slide .slogan .img03 { right: 10%; top: 40% }
+.msec1 .swiper-slide .bg { transform: scale(1)/*½ºÄÉÀÏÅ©±â*/; transition: 5s/*½ºÄÉÀÏ½Ã°£*/; width: 100%; height: 500px }
+.msec1 .swiper-slide .bg img { width: 100%; height: 100%; object-fit: cover; }
+.msec1 .swiper-slide-active .bg { transform: scale(1) }
+.msec1 .swiper-slide-active .slogan dl { top: 0%; opacity: 1 }
+.msec1 .swiper-slide-active .slogan ul { top: 0%; opacity: 1 }
+.msec1 .swiper-slide-active .slogan p { transform: scale(0.8); }
+.msec1 .swiper-slide .swiper-button-prev { width: 54px; height: 54px; background: url(../images/main/arrow_prev.png) no-repeat; top: 250px; left: 0 }
+.msec1 .swiper-slide .swiper-button-next { width: 54px; height: 54px; background: url(../images/main/arrow_next.png) no-repeat; top: 250px; left: 70px }
+}

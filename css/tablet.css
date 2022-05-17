@@ -1,0 +1,10 @@
+
+ @media (min-width:1024px) and (max-width:1280px) {
+.responsive-slider .slider-control.left,
+.responsive-slider .slider-control.right{display:none}
+
+#d_lnb li > a{letter-spacing:-1px}
+
+
+
+}
